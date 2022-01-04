@@ -5,8 +5,6 @@ library("zoo")       # calculate moving averages
 library("ggpubr")    # combining plots
 library("scales")    # for percentages
 
-setwd("C:/Users/Joanna/Dropbox/Repositories/COVID_Erie")
-
 data <- read.socrata("https://health.data.ny.gov/Health/New-York-State-Statewide-COVID-19-Testing/xdss-u53e")
 
 data <- data %>%
